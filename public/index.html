@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/index.css">
   <title>BlackJack</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
+
+  <div class="heading">
+    <img src="img/icon1.png" class="icon"><text class="nadpis">Black_Jack</text>
+    <img src="img/icon1.png" class="icon">
+  </div>
+
+  <div class="medzera"></div>
+  <div class="UI">
+
+    <div class="table">
+      <div class="rozdani_karet">
+        <div class="karta">1</div>
+        <div class="karta">2</div>
+        <div class="karta">3</div>
+        <div class="karta">4</div>
+        <div class="karta">5</div>
+        <div class="karta">6</div>
+        <div class="karta">7</div>
+        <div class="karta">8</div>
+      </div>
+      <div id="deck" onclick="draw_card()">
+        <img src="img/revers.png" class="package"> </div>
+
+
+
+    </div>
+  </div>
+
   <script src="/js/jquery-3.3.1.min.js"></script>
   <script src="/js/cards.js"></script>
   <script src="/js/index.js"></script>
+
 </body>
+
 </html>
